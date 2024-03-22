@@ -3,7 +3,7 @@
 Objective: The goal is the challenge is to create a model that predicts whether start up applicants will become successful if funded by Alphabet Soup.  The approach is to use different neural network models using python coding in a jupyter notebook.  The code to then compares metrics of the models for accuracy to determine which one is best.
 The file containing the python coding for the neural network coding is named: 
 venture_funding_with_deep_learning.ipynb
-The filkes containing the 3 separate  neural network models are: AlphabetSoup.h5, nn_A1.h5, and nn_A2.h5
+
 
 ## Prepare the data for use on a neural network model.
 The code first reads the CVS file that has the data we will use as our dataframe for the neural model.  The code then cleans the data by removing 2 colukns and then using OneHotEncoder modifies the categorical variables of the dataframe. The code them concatenates the original numerical variables with the encoded categorical variables in one main dataframe.
